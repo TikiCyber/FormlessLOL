@@ -1,1 +1,17 @@
-
+{
+  "summoners": [
+    {
+      "riot_id": "YourRiotID",
+      "tagline": "NA1",
+      "region": "na1",
+      "preferred_roles": ["adc", "mid"],
+      "notification": true
+    }
+  ],
+  "analysis_settings": {
+    "match_count": 20,
+    "ranked_only": true,
+    "current_season": true,
+    "min_champion_games": 3
+  }
+}
