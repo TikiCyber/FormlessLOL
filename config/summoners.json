@@ -1,10 +1,10 @@
 {
   "summoners": [
     {
-      "riot_id": "YourRiotID",
+      "riot_id": "TikiCyber",
       "tagline": "NA1",
       "region": "na1",
-      "preferred_roles": ["adc", "mid"],
+      "preferred_roles": ["jg", "mid"],
       "notification": true
     }
   ],
