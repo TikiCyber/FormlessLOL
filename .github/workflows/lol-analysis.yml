@@ -2,13 +2,15 @@ name: League of Legends Analysis Pipeline
 
 on:
   schedule:
-    # Run daily at 6 AM UTC
     - cron: '0 6 * * *'
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
   push:
     branches: [ main ]
     paths: 
       - 'config/summoners.json'
+
+permissions:
+  contents: write
 
 jobs:
   analyze-summoners:
@@ -40,12 +42,13 @@ jobs:
       env:
         RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-      run: |
-        python src/lol_analyzer.py
+      run: python src/lol_analyzer.py
         
     - name: Generate Report
-      run: |
-        python src/report_generator.py
+      run: python src/report_generator.py
+        
+    - name: Update README
+      run: python src/update_readme.py
         
     - name: Upload Analysis Results
       uses: actions/upload-artifact@v4
@@ -53,18 +56,12 @@ jobs:
         name: lol-analysis-report
         path: |
           reports/
-          *.json
-          *.html
         retention-days: 30
-        
-    - name: Update README with Results
-      run: |
-        python src/update_readme.py
         
     - name: Commit Results
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add README.md reports/
-        git diff --staged --quiet || git commit -m "🎮 Auto-update: League analysis $(date)"
-        git push
+        git add README.md reports/ || true
+        git diff --staged --quiet || git commit -m "Auto-update: League analysis $(date +%Y-%m-%d)"
+        git push || true
