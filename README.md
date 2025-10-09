@@ -4,7 +4,7 @@ Automated League of Legends performance analysis using GitHub Actions.
 
 ## Setup
 
-Get your API key from https://developer.riotgames.com/
+Riot recently overhauled their API system so please generate your key here: https://developer.riotgames.com/
 
 1. Log in with your Riot account
 2. Generate a new development API key
