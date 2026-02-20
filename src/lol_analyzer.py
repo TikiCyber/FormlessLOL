@@ -73,12 +73,14 @@ class LoLAnalyzer:
             return {}
             
         # Win rate by champion
-        champion_stats = df.groupby('champion').agg({
-            'win': ['count', 'sum', 'mean'],
-            'kills': 'mean',
-            'deaths': 'mean',
-            'assists': 'mean'
-        }).round(2)
+        champion_stats = df.groupby('champion').agg(
+            games=('win', 'count'),
+            wins=('win', 'sum'),
+            winrate=('win', 'mean'),
+            avg_kills=('kills', 'mean'),
+            avg_deaths=('deaths', 'mean'),
+            avg_assists=('assists', 'mean')
+        ).round(2)
         
         # Recommendations
         recommendations = {
