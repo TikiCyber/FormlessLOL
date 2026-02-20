@@ -46,6 +46,11 @@ jobs:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       run: python src/lol_analyzer.py
         
+    - name: Run AI Coaching
+      env:
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      run: python src/ai_coach.py
+
     - name: Generate Report
       run: python src/report_generator.py
         
