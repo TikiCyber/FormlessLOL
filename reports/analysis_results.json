@@ -1,1 +1,302 @@
-{}
+{
+  "TikiCyber": {
+    "summoner_info": {
+      "puuid": "4k0YcmP_-cqdmngLBw79igF3gS6hs-8zCAgMKRphU2URoLXK-FfsmL8qdpvv-BVeay0bRSga1Hfv0Q",
+      "profileIconId": 5091,
+      "revisionDate": 1769399728000,
+      "summonerLevel": 728
+    },
+    "recommendations": {
+      "top_champions": {
+        "games": {
+          "Jax": 1,
+          "Malphite": 5,
+          "Malzahar": 1,
+          "Shaco": 1,
+          "Talon": 12
+        },
+        "wins": {
+          "Jax": 1,
+          "Malphite": 2,
+          "Malzahar": 0,
+          "Shaco": 0,
+          "Talon": 7
+        },
+        "winrate": {
+          "Jax": 1.0,
+          "Malphite": 0.4,
+          "Malzahar": 0.0,
+          "Shaco": 0.0,
+          "Talon": 0.58
+        },
+        "avg_kills": {
+          "Jax": 9.0,
+          "Malphite": 5.6,
+          "Malzahar": 3.0,
+          "Shaco": 3.0,
+          "Talon": 10.0
+        },
+        "avg_deaths": {
+          "Jax": 4.0,
+          "Malphite": 5.6,
+          "Malzahar": 5.0,
+          "Shaco": 7.0,
+          "Talon": 5.08
+        },
+        "avg_assists": {
+          "Jax": 3.0,
+          "Malphite": 9.0,
+          "Malzahar": 13.0,
+          "Shaco": 6.0,
+          "Talon": 4.83
+        }
+      },
+      "avg_winrate": 0.5,
+      "best_role": "TOP",
+      "total_games": 20,
+      "timestamp": "2026-02-20T05:05:38.028618"
+    },
+    "match_data": [
+      {
+        "match_id": "NA1_5446507707",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 8,
+        "deaths": 6,
+        "assists": 4,
+        "cs": 11,
+        "damage": 11152,
+        "game_duration": 1358
+      },
+      {
+        "match_id": "NA1_5446477744",
+        "champion": "Shaco",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 3,
+        "deaths": 7,
+        "assists": 6,
+        "cs": 8,
+        "damage": 8506,
+        "game_duration": 1813
+      },
+      {
+        "match_id": "NA1_5446445772",
+        "champion": "Jax",
+        "role": "TOP",
+        "win": true,
+        "kills": 9,
+        "deaths": 4,
+        "assists": 3,
+        "cs": 223,
+        "damage": 20406,
+        "game_duration": 1867
+      },
+      {
+        "match_id": "NA1_5437989905",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": true,
+        "kills": 22,
+        "deaths": 5,
+        "assists": 7,
+        "cs": 57,
+        "damage": 38552,
+        "game_duration": 1526
+      },
+      {
+        "match_id": "NA1_5437960367",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": true,
+        "kills": 13,
+        "deaths": 3,
+        "assists": 5,
+        "cs": 17,
+        "damage": 18133,
+        "game_duration": 1198
+      },
+      {
+        "match_id": "NA1_5437277149",
+        "champion": "Malzahar",
+        "role": "MIDDLE",
+        "win": false,
+        "kills": 3,
+        "deaths": 5,
+        "assists": 13,
+        "cs": 232,
+        "damage": 25940,
+        "game_duration": 2129
+      },
+      {
+        "match_id": "NA1_5437252266",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 0,
+        "deaths": 6,
+        "assists": 1,
+        "cs": 2,
+        "damage": 5204,
+        "game_duration": 942
+      },
+      {
+        "match_id": "NA1_5436916064",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 19,
+        "deaths": 8,
+        "assists": 4,
+        "cs": 56,
+        "damage": 34583,
+        "game_duration": 1993
+      },
+      {
+        "match_id": "NA1_5436887474",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": true,
+        "kills": 4,
+        "deaths": 2,
+        "assists": 0,
+        "cs": 3,
+        "damage": 5392,
+        "game_duration": 911
+      },
+      {
+        "match_id": "NA1_5436838759",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": true,
+        "kills": 7,
+        "deaths": 5,
+        "assists": 6,
+        "cs": 16,
+        "damage": 14066,
+        "game_duration": 1709
+      },
+      {
+        "match_id": "NA1_5436586417",
+        "champion": "Malphite",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 8,
+        "deaths": 8,
+        "assists": 12,
+        "cs": 29,
+        "damage": 29279,
+        "game_duration": 2153
+      },
+      {
+        "match_id": "NA1_5436576085",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 2,
+        "deaths": 4,
+        "assists": 3,
+        "cs": 18,
+        "damage": 4810,
+        "game_duration": 912
+      },
+      {
+        "match_id": "NA1_5436564235",
+        "champion": "Talon",
+        "role": "MIDDLE",
+        "win": true,
+        "kills": 13,
+        "deaths": 5,
+        "assists": 6,
+        "cs": 187,
+        "damage": 30496,
+        "game_duration": 1737
+      },
+      {
+        "match_id": "NA1_5434589487",
+        "champion": "Malphite",
+        "role": "JUNGLE",
+        "win": true,
+        "kills": 12,
+        "deaths": 7,
+        "assists": 12,
+        "cs": 36,
+        "damage": 38972,
+        "game_duration": 1948
+      },
+      {
+        "match_id": "NA1_5434558056",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": true,
+        "kills": 19,
+        "deaths": 7,
+        "assists": 10,
+        "cs": 42,
+        "damage": 27762,
+        "game_duration": 1571
+      },
+      {
+        "match_id": "NA1_5434519235",
+        "champion": "Malphite",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 3,
+        "deaths": 7,
+        "assists": 7,
+        "cs": 27,
+        "damage": 18940,
+        "game_duration": 1733
+      },
+      {
+        "match_id": "NA1_5434505085",
+        "champion": "Malphite",
+        "role": "JUNGLE",
+        "win": true,
+        "kills": 0,
+        "deaths": 0,
+        "assists": 0,
+        "cs": 0,
+        "damage": 139,
+        "game_duration": 190
+      },
+      {
+        "match_id": "NA1_5434466356",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 2,
+        "deaths": 6,
+        "assists": 5,
+        "cs": 6,
+        "damage": 13854,
+        "game_duration": 1548
+      },
+      {
+        "match_id": "NA1_5434270015",
+        "champion": "Malphite",
+        "role": "JUNGLE",
+        "win": false,
+        "kills": 5,
+        "deaths": 6,
+        "assists": 14,
+        "cs": 23,
+        "damage": 19362,
+        "game_duration": 1995
+      },
+      {
+        "match_id": "NA1_5434236067",
+        "champion": "Talon",
+        "role": "JUNGLE",
+        "win": true,
+        "kills": 11,
+        "deaths": 4,
+        "assists": 7,
+        "cs": 42,
+        "damage": 22865,
+        "game_duration": 1542
+      }
+    ]
+  }
+}
