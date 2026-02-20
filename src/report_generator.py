@@ -52,6 +52,42 @@ def generate_html_report():
         
         html_content += """
         </div>
+"""
+
+        # add AI coaching section if it exists
+        coaching = summoner_data.get("ai_coaching")
+        if coaching:
+            # split the three sections into separate blocks
+            sections = {"TREND": "", "PLAYSTYLE": "", "MENTAL GAME": ""}
+            current = None
+            for line in coaching.split("\n"):
+                for key in sections:
+                    if line.startswith(key):
+                        current = key
+                        line = line[len(key):].lstrip(": ")
+                if current:
+                    sections[current] += line + " "
+
+            html_content += """
+        <div style="margin-top: 24px;">
+            <h3 style="color: #c89b3c; border-bottom: 1px solid #463714; padding-bottom: 8px;">AI Coach</h3>
+            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+"""
+            labels = {"TREND": "📈 Trend", "PLAYSTYLE": "🎮 Playstyle", "MENTAL GAME": "🧠 Mental Game"}
+            for key, text in sections.items():
+                if text.strip():
+                    html_content += f"""
+                <div style="flex: 1; min-width: 200px; background: #2d2d2d; border-left: 3px solid #c89b3c; padding: 14px; border-radius: 4px;">
+                    <strong style="color: #c89b3c;">{labels[key]}</strong>
+                    <p style="margin: 8px 0 0; font-size: 14px; line-height: 1.6; color: #cdbe91;">{text.strip()}</p>
+                </div>
+"""
+            html_content += """
+            </div>
+        </div>
+"""
+
+        html_content += """
     </div>
 """
     
