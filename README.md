@@ -1,6 +1,6 @@
 # FormlessLoL
 
-A League of Legends analytics tool that pulls your match history through the Riot API, runs performance analysis, and uses AI to give you actual coaching feedback — not just your win rate.
+A League of Legends analytics tool that pulls your match history through the Riot API, runs performance analysis, and uses AI to give you actual coaching feedback not just your win rate.
 
 Built this because I wanted something that could tell me *why* I was losing, not just that I was.
 
