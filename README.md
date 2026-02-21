@@ -5,14 +5,8 @@ Automated League of Legends performance analysis using GitHub Actions.
 ## 📊 Latest Analysis Results
 
 
-### TikiCyber
-- **Win Rate:** 50.0%
-- **Games Analyzed:** 20
-- **Best Role:** TOP
-
-
 ---
-*Last updated: 2026-02-20 06:51:42 UTC*
+*Last updated: 2026-02-21 06:36:47 UTC*
 
 ## 🚀 How it works
 
