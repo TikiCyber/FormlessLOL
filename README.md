@@ -1,14 +1,14 @@
-#  FormlessLoL - League of Legends Analytics
+# 🎮 FormlessLoL - League of Legends Analytics
 
 Automated League of Legends performance analysis using GitHub Actions.
 
-##  Latest Analysis Results
+## 📊 Latest Analysis Results
 
 
 ---
-*Last updated: 2026-05-21 09:32:51 UTC*
+*Last updated: 2026-05-22 08:55:08 UTC*
 
-##  How it works
+## 🚀 How it works
 
 1. **Scheduled Analysis:** Runs daily via GitHub Actions
 2. **Data Collection:** Fetches match history from Riot Games API
@@ -16,6 +16,6 @@ Automated League of Legends performance analysis using GitHub Actions.
 4. **Recommendations:** Suggests optimal champions and playstyles
 5. **Reporting:** Generates HTML reports and updates this README
 
-##  View Reports
+## 📁 View Reports
 - [Latest HTML Report](./reports/analysis_report.html)
 - [Raw JSON Data](./reports/analysis_results.json)
